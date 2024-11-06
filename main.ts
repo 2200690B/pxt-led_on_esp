@@ -8,8 +8,8 @@
 //% color="#AA278D" weight=100
 namespace ledControl {
     // Define the GPIO pins for the LEDs
-    let LED1 = DigitalPin.P12;  // GPIO2, mapped to P12 in MakeCode
-    let LED2 = DigitalPin.P16;  // GPIO16, mapped to P16 in MakeCode
+    let LED1 = DigitalPin.P0;  // GPIO2(D4), mapped to P0 in MakeCode
+    let LED2 = DigitalPin.P1;  // GPIO16(D0), mapped to P1 in MakeCode
 
     /**
      * Initializes the LEDs by turning one on and the other off
