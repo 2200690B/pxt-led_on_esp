@@ -16,7 +16,7 @@ namespace ledControl {
      */
     //% block="initialize LEDs"
     export function setupLEDs(): void {
-        pins.digitalWritePin(LED1, 0); // Set LED1 (GPIO2) off
+        pins.digitalWritePin(LED1, 1); // Set LED1 (GPIO2) on
         pins.digitalWritePin(LED2, 1); // Set LED2 (GPIO16) on
     }
 
